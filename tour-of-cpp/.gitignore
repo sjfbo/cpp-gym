@@ -1,0 +1,88 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!cmake/*.cmake
+!CMakeLists.txt
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Testing
+Testing/
+CTestTestfile.cmake
+
+# Package managers
+_deps/
+vcpkg_installed/
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+lcov.info
+
+# Profiling
+*.prof
+*.profraw
+*.profdata
+callgrind.*
+cachegrind.*
+
+# Clang
+.cache/
+.clangd/
+
+# Documentation
+docs/_build/
+doxygen/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
